@@ -23,3 +23,7 @@ Visi svetainės failai yra pagrindiniame kataloge; jokių diegimo ar build prikl
 SMS ir el. laiškai realiai nesiunčiami. Duomenys saugomi tik toje pačioje naršyklėje (`localStorage`), bendros serverio duomenų bazės nėra. Asmeninės nuorodos naujiems demonstracijoje sukurtiems įrašams skirtos tikrinti ta pačia naršykle. Pateikus formą kitame įrenginyje, duomenys nepersiduoda į administratoriaus naršyklę.
 
 Naudojami išgalvoti pavyzdiniai duomenys. Naudotojų peržiūros imituoja roles. Produkcijoje administratoriaus prisijungimas ir gyventojo asmeninės nuorodos tikrinimas turi vykti serveryje; gyventojas paskyros nekuria. Į šį demonstracinį paketą tikroji autentifikacija, duomenų sauga, API ir pranešimų siuntimo paslaugos neįtrauktos. Apklausos nėra formalus savininkų balsavimo modulis.
+
+## Įdiegimas kaip programėlės
+
+Atidarykite paskelbtą GitHub Pages demo per HTTPS. Palaikomose naršyklėse pasirodo įdiegimo piktograma arba mygtukas „Įdiegti programėlę“. „Microsoft Edge“ taip pat galima rinktis **… → More tools → Apps → Install this site as an app**. Įdiegta programėlė atsidaro atskirame lange. Įdiegimas nekeičia demonstracijos duomenų saugojimo ir neprideda bendros serverio duomenų bazės. Naudojimui reikalingas internetas; veikimas neprisijungus nenumatytas.
